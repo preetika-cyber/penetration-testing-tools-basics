@@ -11,7 +11,7 @@ This repo is a beginner-friendly collection of essential tools used in the ethic
 - [🔍 Phases of Penetration Testing](#-phases-of-penetration-testing)
 - [🧰 Tool List with Descriptions](#-tool-list-with-descriptions)
 - [⚙️ Tool Usage Examples](#️-tool-usage-examples)
-- [📄 License](preetika-cyber/LICENSE)
+- [📄 License](./LICENSE)
 
 ---
 
