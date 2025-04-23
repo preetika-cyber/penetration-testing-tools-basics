@@ -54,48 +54,48 @@ Here are some simple usage examples to help you get started:
 ```bash
 nmap -sV -T4 target_ip
 ```
-# Scans for services and versions on open ports
+- Scans for services and versions on open ports
 
 ### 🔹 Dirb
 ```bash
 dirb http://target.com
 ```
-# Scans the target website for hidden directories and files using a wordlist
+- Scans the target website for hidden directories and files using a wordlist
 
 ###  🔹 WPscan
 ```bash
 wpscan --url http://target.com
 ```
-# Scans a WordPress site for known vulnerabilities, plugins, and user enumeration
+- Scans a WordPress site for known vulnerabilities, plugins, and user enumeration
 
 ###  🔹 Hydra
 ```bash
 hydra -l admin -P rockyou.txt ssh://target_ip
 ```
-# Brute-forces SSH logins with the username admin
+- Brute-forces SSH logins with the username admin
 
 ###  🔹 SQLmap
 ```bash
 sqlmap -u "http://target_ip/vuln.php?id=1" --batch --dbs
 ```
-# Automatically detects and exploits SQLi
+- Automatically detects and exploits SQLi
 
 ###  🔹 Metasploit
 ```bash
 msfconsole
 ```
-# Launch Metasploit console
+- Launch Metasploit console
 
 ###  🔹 John the Ripper
 ```bash
 john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
-# Cracks password hashes using a wordlist
+- Cracks password hashes using a wordlist
 
 ###  🔹 Wireshark
 ```bash
 wireshark
 ```
-# Captures and analyzes network traffic in real-time
+- Captures and analyzes network traffic in real-time
 
 
